@@ -95,19 +95,27 @@ img{
     
     
 }
+.videoFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videoFlex img:hover{
+    
+    transform: scale(1.01);
+    box-shadow:  0 10px 30px black;;
+}
 
 .video-image{
     width:75%;
     margin-top: 70px;
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
-.videoFlex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .final-layer{
     display: flex;
@@ -120,9 +128,25 @@ img{
     align-items: center;
 }
 
-.finalHeading{
+.heading-bottom{
     font-size: 58px;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.download-bottom{
+    width: 129px;
+    height: 48px;
+    border-radius: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(4, 221, 178);
+    color:white;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    outline: none;
 }
 
 @media (width <= 963px) {
@@ -137,6 +161,9 @@ img{
     .layer1Heading{
         font-size: 35px;
     }
+    .heading-bottom{
+        font-size: 24px;
+    }
 }
 @media (width <= 550px){
     .layer1Paragraph{
@@ -148,6 +175,9 @@ img{
         font-size: 15px;
     }
     .layer1Heading{
+        font-size: 45px;
+    }
+    .heading-bottom{
         font-size: 45px;
     }
 }
