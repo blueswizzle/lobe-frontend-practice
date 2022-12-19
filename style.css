@@ -64,16 +64,10 @@ img{
     outline: none;
     
 }
-@media screen and (max-width:963px) {
-    
-    .linksNav{
-        display: none;
-    }
-}
+
 .layer1Container{
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 1.5rem;
 }
 
@@ -87,8 +81,7 @@ img{
 .layer1Heading{
     font-size: 60px;
     font-weight: bold;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .layer1Heading span{
     color: rgb(4, 221, 178);
@@ -101,21 +94,63 @@ img{
     line-height: 1.45px;
     
     
-    
 }
 
-@media screen and (max-width:1000px) {
-    .layer1Paragraph{
-        font-size: 16px;
-    }
-    .layer1topFlex span
-    .layer1topFlex h2{
-        font-size: 42px;
-    }
+.video-image{
+    width:75%;
+    margin-top: 70px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
-@media (max-width:700px){
+.videoFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final-layer{
+    display: flex;
+    flex-direction: column;
+}
+
+.finalFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finalHeading{
+    font-size: 58px;
+    font-weight: bold;
+}
+
+@media (width <= 963px) {
+    .linksNav{
+        display: none;
+    }
+}
+@media  (width <= 724px){
     .layer1Paragraph{
         font-size: 10px;
     }
+    .layer1Heading{
+        font-size: 35px;
+    }
 }
+@media (width <= 550px){
+    .layer1Paragraph{
+        font-size: 8px;
+    }
+}
+@media (725px <= width <= 1100px){
+    .layer1Paragraph{
+        font-size: 15px;
+    }
+    .layer1Heading{
+        font-size: 45px;
+    }
+}
+
+
+
