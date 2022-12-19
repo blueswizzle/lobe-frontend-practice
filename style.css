@@ -23,12 +23,12 @@ img{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-right: 80px;
+    margin-right: 20px;
     
 }
 .linksNav li{
     list-style: none;
-    margin-right: 35px;
+    margin-right: 45px;
     display: inline-block;
     
 }
@@ -39,6 +39,12 @@ img{
     font-weight: 400;
     font-size: 17px;
     display: inline-block;
+}
+
+.linksNav li a:hover{
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.05);
 }
 .logoContainer{
     width:10%;
@@ -60,6 +66,7 @@ img{
     border-radius: 25px;
     text-align: center;
     cursor: pointer;
+    margin-right: 25px;
     transition: 0.2s ease-in-out;
     outline: none;
     
