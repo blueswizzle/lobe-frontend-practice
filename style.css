@@ -215,7 +215,7 @@ button:hover{
 }
 @media (width <= 550px){
     .layer1Paragraph{
-        font-size: 8px;
+        display: none;
     }
 }
 @media (725px <= width <= 1100px){
