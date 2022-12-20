@@ -195,11 +195,14 @@ button:hover{
     .linksNav{
         display: none;
     }
-    .download-button{
+    .headerFlex .download-button{
         display: none;
     }
     .headerFlex{
         justify-content: center;
+    }
+    .logoContainer{
+        margin-right: 50px;
     }
 }
 @media  (width <= 724px){
@@ -216,6 +219,9 @@ button:hover{
 @media (width <= 550px){
     .layer1Paragraph{
         display: none;
+    }
+    .footer-container{
+        padding: 112px 0;
     }
 }
 @media (725px <= width <= 1100px){
