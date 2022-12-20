@@ -39,11 +39,12 @@ img{
     font-weight: 400;
     font-size: 17px;
     display: inline-block;
+    transition: 0.5s;
 }
 
 .linksNav li a:hover{
     color: black;
-    transition: 0.5s;
+    
     transform: scale(1.05);
 }
 .logoContainer{
@@ -133,6 +134,8 @@ button:hover{
 .final-layer{
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 6rem;
 }
 
 .finalFlex{
@@ -149,9 +152,54 @@ button:hover{
 .finalFlex .download-button{
     width:150px;
 }
+
+.footer{
+    border-top: 1px dashed gray;
+    padding: 0 64px 64px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 112px 108px;
+    
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+
+.footer-heading{
+    margin-bottom: 15px;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-list li{
+    margin-bottom: 15px;
+}
+.footer-list li a:link,a:visited{
+    text-decoration: none;
+    color:black;
+    transition: 0.3s;
+}
+
+.footer-list li a:hover{
+    transform: scale(1.02);
+}
 @media (width <= 963px) {
     .linksNav{
         display: none;
+    }
+    .download-button{
+        display: none;
+    }
+    .headerFlex{
+        justify-content: center;
     }
 }
 @media  (width <= 724px){
